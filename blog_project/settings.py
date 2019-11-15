@@ -36,10 +36,10 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'whitenoise.runserver_nostatic', # for CSS static files
     'django.contrib.staticfiles',
     'blog', # New APP
     'accounts', # New APP for authentication
+    'whitenoise.runserver_nostatic', # for CSS static files
 ]
 
 MIDDLEWARE = [
